@@ -1,0 +1,82 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.usercard-1,
+.usercard-2,
+.usercard-3 {
+  position: relative;
+  overflow: hidden;
+  padding: 20px 50px;
+  margin: 30px;
+  width: 20%;
+  height: 33%;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.usercard-1 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(254, 190, 152, 1) 0%,
+    rgba(255, 142, 170, 1) 100%
+  );
+}
+
+.usercard-2 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(140, 201, 248, 1) 0%,
+    rgba(35, 134, 209, 1) 100%
+  );
+}
+
+.usercard-3 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(129, 213, 203, 1) 42%,
+    rgba(7,208,185) 100%
+  );
+}
+
+.full-card {
+  font-size: 1.3em;
+  color:white;
+  position: relative;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  max-width: 100%;
+}
+
+.circle-1, .circle-2{
+  background-color: white;
+  opacity: 30%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-1{
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.circle-2{
+  top: -10%;
+  left: 70%;
+  width: 250px;
+  height: 250px;
+}
+
+.icon{
+  position: absolute;
+  top: 15%;
+  left: 85%;
+}
